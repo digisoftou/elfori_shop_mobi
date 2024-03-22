@@ -1,0 +1,36 @@
+name: elfori_shop_mobi
+description: "A new Flutter project."
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.3.1 <4.0.0'
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.6
+  get: ^4.6.6
+  flutter_svg: ^2.0.10+1
+  flutter_instagram_stories: ^1.0.3+2
+  story_view: ^0.16.5
+  percent_indicator: ^4.2.3
+  persistent_bottom_nav_bar: ^5.0.2
+  dotted_border: ^2.1.0
+  google_maps_flutter: ^2.6.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+flutter:
+
+  uses-material-design: true
+  assets:
+    - assets/
+    - assets/images/
+    - assets/icons/
+
